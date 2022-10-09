@@ -1,0 +1,43 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "Smoke Test",
+    "children" : [ {
+      "name" : "Verify URL and Title",
+      "uid" : "2028d4a1276e0261",
+      "parentUid" : "8a9fa3d84093771a13ca7958af8decc3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1665332938119,
+        "stop" : 1665332942485,
+        "duration" : 4366
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-106.0.5249.91" ]
+    }, {
+      "name" : "Verify Login",
+      "uid" : "3210c92cb157f79c",
+      "parentUid" : "8a9fa3d84093771a13ca7958af8decc3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1665332942486,
+        "stop" : 1665332958835,
+        "duration" : 16349
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-106.0.5249.91" ]
+    } ],
+    "uid" : "8a9fa3d84093771a13ca7958af8decc3"
+  } ]
+}

@@ -1,0 +1,62 @@
+{
+  "uid" : "2028d4a1276e0261",
+  "name" : "Verify URL and Title",
+  "fullName" : "Smoke Test.Verify URL and Title",
+  "historyId" : "336c12fd9d9be9c30873b1f3df5f214a",
+  "time" : {
+    "start" : 1665332938119,
+    "stop" : 1665332942485,
+    "duration" : 4366
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Smoke Test"
+  }, {
+    "name" : "testClass",
+    "value" : "Smoke Test"
+  }, {
+    "name" : "testMethod",
+    "value" : "Verify URL and Title"
+  }, {
+    "name" : "package",
+    "value" : "Smoke Test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-106.0.5249.91"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "2028d4a1276e0261.json",
+  "parameterValues" : [ "chrome-106.0.5249.91" ]
+}

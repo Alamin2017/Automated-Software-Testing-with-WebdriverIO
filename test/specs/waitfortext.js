@@ -17,12 +17,6 @@ describe("COmponent test", ()=> {
          assert.equal(await text.isDisplayed(),true);
          await browser.pause(3000);
 
-         
-         
-
-        
-
-
-         
+           
     })
 })

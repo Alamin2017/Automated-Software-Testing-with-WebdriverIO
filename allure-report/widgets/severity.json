@@ -1,0 +1,21 @@
+[ {
+  "uid" : "3210c92cb157f79c",
+  "name" : "Verify Login",
+  "time" : {
+    "start" : 1665332942486,
+    "stop" : 1665332958835,
+    "duration" : 16349
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2028d4a1276e0261",
+  "name" : "Verify URL and Title",
+  "time" : {
+    "start" : 1665332938119,
+    "stop" : 1665332942485,
+    "duration" : 4366
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]
