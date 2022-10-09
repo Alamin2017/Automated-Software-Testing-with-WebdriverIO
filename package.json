@@ -13,8 +13,10 @@
     "@wdio/cli": "^7.25.1"
   },
   "devDependencies": {
+    "@wdio/firefox-profile-service": "^7.25.1",
     "@wdio/local-runner": "^7.25.1",
     "@wdio/mocha-framework": "^7.25.1",
+    "@wdio/selenium-standalone-service": "^7.25.1",
     "@wdio/spec-reporter": "^7.25.1",
     "chromedriver": "^106.0.1",
     "wdio-chromedriver-service": "^8.0.0"
