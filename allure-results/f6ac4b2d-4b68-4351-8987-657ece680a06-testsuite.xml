@@ -1,0 +1,42 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1665500078049' stop='1665500097028'>
+    <name>Smoke Test</name>
+    <title>Smoke Test</title>
+    <test-cases>
+        <test-case start='1665500078050' status='broken' stop='1665500080448'>
+            <name>Verify URL and Title</name>
+            <title>Verify URL and Title</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='1-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='Edge-106.0.1370.42'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Command "maximizeWindow" is not yet implemented</message>
+                <stack-trace>Error: Command "maximizeWindow" is not yet implemented
+                    at Browser.retries (C:\Users\hp\Desktop\WDIO\WebdriverIO-PageObjectModel\node_modules\devtools\build\devtoolsdriver.js:116:34)
+                    at Browser.wrapCommandFn (C:\Users\hp\Desktop\WDIO\WebdriverIO-PageObjectModel\node_modules\@wdio\utils\build\shim.js:137:38)
+                    at async Context.&lt;anonymous> (C:\Users\hp\Desktop\WDIO\WebdriverIO-PageObjectModel\test\specs\FirstTest.js:5:10)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1665500080450' status='passed' stop='1665500097025'>
+            <name>Verify Login</name>
+            <title>Verify Login</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='1-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='Edge-106.0.1370.42'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

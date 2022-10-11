@@ -4,14 +4,14 @@
   "children" : [ {
     "name" : "0-0",
     "children" : [ {
-      "name" : "Verify Login",
-      "uid" : "3210c92cb157f79c",
+      "name" : "Verify URL and Title",
+      "uid" : "b85bbaa95693098e",
       "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
       "status" : "passed",
       "time" : {
-        "start" : 1665332942486,
-        "stop" : 1665332958835,
-        "duration" : 16349
+        "start" : 1665498825030,
+        "stop" : 1665498829732,
+        "duration" : 4702
       },
       "flaky" : false,
       "newFailed" : false,
@@ -21,14 +21,14 @@
       "retriesStatusChange" : false,
       "parameters" : [ "chrome-106.0.5249.91" ]
     }, {
-      "name" : "Verify URL and Title",
-      "uid" : "2028d4a1276e0261",
+      "name" : "Verify Login",
+      "uid" : "cee9881397e560ea",
       "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
       "status" : "passed",
       "time" : {
-        "start" : 1665332938119,
-        "stop" : 1665332942485,
-        "duration" : 4366
+        "start" : 1665498829733,
+        "stop" : 1665498846146,
+        "duration" : 16413
       },
       "flaky" : false,
       "newFailed" : false,

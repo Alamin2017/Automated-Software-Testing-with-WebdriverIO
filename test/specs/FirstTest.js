@@ -1,4 +1,4 @@
-describe("Smoke Test", ()=> {
+describe("Smoke Test", async()=> {
 
     it("Verify URL and Title", async ()=> { 
          await browser.url("https://www.facebook.com/");
@@ -6,7 +6,7 @@ describe("Smoke Test", ()=> {
          await browser.pause(3000);
          await expect(browser).toHaveUrlContaining("facebook");
          await expect(browser).toHaveTitle("Facebook – log in or sign up");
-    })
+    });
     it("Verify Login", async ()=> {
 
         await $("//input[@id='email']").setValue("alamincse12@gmail.com");
@@ -20,6 +20,6 @@ describe("Smoke Test", ()=> {
         console.log("Status of Login Button",displayed);
         await browser.pause(10000);
 
-    })
+    });
 
-})
+});

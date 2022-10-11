@@ -19,7 +19,12 @@
     "@wdio/mocha-framework": "^7.25.1",
     "@wdio/selenium-standalone-service": "^7.25.1",
     "@wdio/spec-reporter": "^7.25.1",
+    "chai": "^4.3.4",
     "chromedriver": "^106.0.1",
-    "wdio-chromedriver-service": "^8.0.0"
+    "geckodriver": "^3.0.2",
+    "msedgedriver": "^91.0.0",
+    "wdio-chromedriver-service": "^8.0.0",
+    "wdio-edgedriver-service": "^2.0.0",
+    "wdio-geckodriver-service": "^4.0.0"
   }
 }

@@ -1,0 +1,62 @@
+{
+  "uid" : "cee9881397e560ea",
+  "name" : "Verify Login",
+  "fullName" : "Smoke Test.Verify Login",
+  "historyId" : "a098c6c8e27ac6a9f3ec65adc7c8e0bd",
+  "time" : {
+    "start" : 1665498829733,
+    "stop" : 1665498846146,
+    "duration" : 16413
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Smoke Test"
+  }, {
+    "name" : "testClass",
+    "value" : "Smoke Test"
+  }, {
+    "name" : "testMethod",
+    "value" : "Verify Login"
+  }, {
+    "name" : "package",
+    "value" : "Smoke Test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-106.0.5249.91"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "cee9881397e560ea.json",
+  "parameterValues" : [ "chrome-106.0.5249.91" ]
+}

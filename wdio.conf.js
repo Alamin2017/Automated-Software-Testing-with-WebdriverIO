@@ -1,3 +1,4 @@
+
 exports.config = {
 
     
@@ -51,16 +52,26 @@ exports.config = {
     // Sauce Labs platform configurator - a great tool to configure your capabilities:
     // https://saucelabs.com/platform/platform-configurator
     //
-    capabilities: [{
+    capabilities: [
+    // {
 
 
-        maxInstances: 5,
+    //     maxInstances: 5,
+
+    //     browserName: 'firefox',
+        
+    //     acceptInsecureCerts: true
+    // },
+    {
+
+        maxInstances: 1,
 
         browserName: 'chrome',
-
+        
         acceptInsecureCerts: true
+    }
 
-    }],
+],
 
     logLevel: 'info',
 
@@ -74,7 +85,32 @@ exports.config = {
 
     connectionRetryCount: 3,
 
-    services: ['chromedriver'],
+    //services: ['chromedriver'],
+
+    services: [
+        ['chromedriver', {
+            logFileName: 'wdio-chromedriver.log', // default
+            outputDir: 'driver-logs', // overwrites the config.outputDir
+            args: ['--silent']
+        }]
+      ],
+    // services: [
+    //     [
+    //         'geckodriver',
+    //         {
+    //             args: ['--log=info'],
+
+    //             outputDir: './logs'
+    //         }
+    //     ]
+    // ],
+
+
+
+
+
+ 
+  
     
 
 framework: 'mocha',
