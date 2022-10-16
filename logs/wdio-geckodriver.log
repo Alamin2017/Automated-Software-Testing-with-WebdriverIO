@@ -1,14 +1,15 @@
-1665896186423	geckodriver	INFO	Listening on 127.0.0.1:51482
-1665896186907	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\hp\\AppData\\Local\\Temp\\rust_mozprofileJmHRxo"
+1665896668304	geckodriver	INFO	Listening on 127.0.0.1:51660
+1665896668826	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\hp\\AppData\\Local\\Temp\\rust_mozprofileYbjTO7"
 Can't find symbol 'eglSwapBuffersWithDamageEXT'.
 Can't find symbol 'eglSetDamageRegionKHR'.
 console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
-1665896190177	Marionette	INFO	Listening on port 51489
-1665896190590	Marionette	WARN	TLS certificate errors will be ignored for this session
+1665896672204	Marionette	INFO	Listening on port 51666
+1665896672519	Marionette	WARN	TLS certificate errors will be ignored for this session
 JavaScript error: resource://gre/modules/PartitioningExceptionListService.jsm, line 69: NS_ERROR_MALFORMED_URI: Component returned failure code: 0x804b000a (NS_ERROR_MALFORMED_URI) [nsIPartitioningExceptionListObserver.onExceptionListUpdate]
 Can't find symbol 'eglSwapBuffersWithDamageEXT'.
 Can't find symbol 'eglSetDamageRegionKHR'.
-1665896207510	Marionette	INFO	Stopped listening on port 51489
+1665896689201	Marionette	INFO	Stopped listening on port 51666
+[Child 1744, Chrome_ChildThread] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:545
 
 ###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
 

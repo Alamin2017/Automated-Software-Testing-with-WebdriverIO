@@ -1,20 +1,20 @@
 [ {
-  "uid" : "b85bbaa95693098e",
+  "uid" : "86c22027f631e794",
   "name" : "Verify URL and Title",
   "time" : {
-    "start" : 1665498825030,
-    "stop" : 1665498829732,
-    "duration" : 4702
+    "start" : 1665896672554,
+    "stop" : 1665896689189,
+    "duration" : 16635
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "cee9881397e560ea",
-  "name" : "Verify Login",
+  "uid" : "75460a8067f10655",
+  "name" : "Verify URL and Title",
   "time" : {
-    "start" : 1665498829733,
-    "stop" : 1665498846146,
-    "duration" : 16413
+    "start" : 1665896669633,
+    "stop" : 1665896686348,
+    "duration" : 16715
   },
   "status" : "passed",
   "severity" : "normal"

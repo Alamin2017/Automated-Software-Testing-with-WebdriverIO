@@ -53,15 +53,15 @@ exports.config = {
     // https://saucelabs.com/platform/platform-configurator
     //
     capabilities: [
-     {
+    //  {
 
 
-         maxInstances: 1,
+    //      maxInstances: 1,
 
-         browserName: 'firefox',
+    //      browserName: 'firefox',
         
-         acceptInsecureCerts: true
-    },
+    //      acceptInsecureCerts: true
+    // },
     {
 
         maxInstances: 1,
@@ -94,14 +94,14 @@ exports.config = {
             args: ['--silent']
         }],
         
-        [
-             'geckodriver',
-             {
-                 args: ['--log=info'],
+        // [
+        //      'geckodriver',
+        //      {
+        //          args: ['--log=info'],
 
-                 outputDir: './logs'
-             }
-         ]
+        //          outputDir: './logs'
+        //      }
+        //  ]
 
       ],
     // services: [
@@ -119,9 +119,9 @@ exports.config = {
 
 
 
- 
-  
-    
+
+
+
 
 framework: 'mocha',
 

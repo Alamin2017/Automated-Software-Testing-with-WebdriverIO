@@ -5,13 +5,13 @@
     "name" : "Smoke Test",
     "children" : [ {
       "name" : "Verify URL and Title",
-      "uid" : "b85bbaa95693098e",
+      "uid" : "75460a8067f10655",
       "parentUid" : "6ef0fc06823c665b47ceac1d4cd9294a",
       "status" : "passed",
       "time" : {
-        "start" : 1665498825030,
-        "stop" : 1665498829732,
-        "duration" : 4702
+        "start" : 1665896669633,
+        "stop" : 1665896686348,
+        "duration" : 16715
       },
       "flaky" : false,
       "newFailed" : false,
@@ -19,16 +19,16 @@
       "newBroken" : false,
       "retriesCount" : 0,
       "retriesStatusChange" : false,
-      "parameters" : [ "chrome-106.0.5249.91" ]
+      "parameters" : [ "chrome-106.0.5249.119" ]
     }, {
-      "name" : "Verify Login",
-      "uid" : "cee9881397e560ea",
+      "name" : "Verify URL and Title",
+      "uid" : "86c22027f631e794",
       "parentUid" : "6ef0fc06823c665b47ceac1d4cd9294a",
       "status" : "passed",
       "time" : {
-        "start" : 1665498829733,
-        "stop" : 1665498846146,
-        "duration" : 16413
+        "start" : 1665896672554,
+        "stop" : 1665896689189,
+        "duration" : 16635
       },
       "flaky" : false,
       "newFailed" : false,
@@ -36,7 +36,7 @@
       "newBroken" : false,
       "retriesCount" : 0,
       "retriesStatusChange" : false,
-      "parameters" : [ "chrome-106.0.5249.91" ]
+      "parameters" : [ "firefox-84.0.1" ]
     } ],
     "uid" : "6ef0fc06823c665b47ceac1d4cd9294a"
   } ]

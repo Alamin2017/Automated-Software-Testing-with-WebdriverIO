@@ -1,0 +1,25 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1665925803452' stop='1665925818107'>
+    <name>Advanced Testing</name>
+    <title>Advanced Testing</title>
+    <test-cases>
+        <test-case start='1665925803452' status='broken' stop='1665925818102'>
+            <name>File Uplaoding</name>
+            <title>File Uplaoding</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-106.0.5249.119'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>ENOENT: no such file or directory, open 'C:\Users\hp\Desktop\WDIO\WebdriverIO-PageObjectModel\UsershpDesktopWDIOWebdriverIO-PageObjectModelphoto.png'</message>
+                <stack-trace>Error: ENOENT: no such file or directory, open 'C:\Users\hp\Desktop\WDIO\WebdriverIO-PageObjectModel\UsershpDesktopWDIOWebdriverIO-PageObjectModelphoto.png'</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
