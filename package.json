@@ -23,6 +23,7 @@
     "chromedriver": "^106.0.1",
     "geckodriver": "^3.0.2",
     "msedgedriver": "^91.0.0",
+    "selenium-standalone": "^8.2.2",
     "wdio-chromedriver-service": "^8.0.0",
     "wdio-edgedriver-service": "^2.0.0",
     "wdio-geckodriver-service": "^4.0.0"

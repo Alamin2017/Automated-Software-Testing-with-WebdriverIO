@@ -5,11 +5,11 @@ module.exports=new class SearchResultPage{
     }
     get addToCartButton()
     {
-        return $('//a[@id="a-autoid-4-announce"]')
+        return $('/html/body/div[2]/div[2]/div[5]/div[4]/div[1]/div[3]/div/div/div/div/form/div/div/div/div/div[3]/div/div[33]/div[1]/span/span/span/input')
     }
     get product()
     {
-        return $("img[alt='Sponsored Ad - Amazon Brand - Solimo XXL Bean Bag Filled With Beans (Black and Brown)']")
+        return $("/html/body/div[1]/div[2]/div[1]/div[1]/div/span[3]/div[2]/div[3]/div/div/div/div/div/div/div[1]/span/a/div/img")
     }
     async productclick_cartbuttonclick()
     {
