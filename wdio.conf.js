@@ -53,8 +53,7 @@ exports.config = {
     // https://saucelabs.com/platform/platform-configurator
     //
     capabilities: [
-    //  {
-
+    // {
 
     //      maxInstances: 1,
 
@@ -69,7 +68,9 @@ exports.config = {
         browserName: 'chrome',
         
         acceptInsecureCerts: true
-    }
+        
+    },
+
 
 ],
 
@@ -92,34 +93,18 @@ exports.config = {
             logFileName: 'wdio-chromedriver.log', // default
             outputDir: 'driver-logs', // overwrites the config.outputDir
             args: ['--silent']
-        }],
-        
-        // [
-        //      'geckodriver',
-        //      {
+        }
+        ],
+        // ['geckodriver',{
         //          args: ['--log=info'],
 
         //          outputDir: './logs'
-        //      }
-        //  ]
-
-      ],
-    // services: [
-    //     [
-    //         'geckodriver',
-    //         {
-    //             args: ['--log=info'],
-
-    //             outputDir: './logs'
-    //         }
-    //     ]
-    // ],
-
-
-
-
-
-
+        // }
+        // ],
+      
+      
+    
+    ],
 
 
 

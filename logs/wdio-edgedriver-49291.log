@@ -1,0 +1,374 @@
+[1666021743.219][INFO]: Starting MSEdgeDriver 81.0.416.58 (7728f8beaad172be1b49d71df52cc13cbf9eb7a5) on port 49291
+[1666021743.219][INFO]: Please protect ports used by MSEdgeDriver and related test frameworks to prevent access by malicious code.
+[1666021744.117][INFO]: [50bb94fa63be72dbad90540e168aef59] COMMAND InitSession {
+   "capabilities": {
+      "alwaysMatch": {
+         "acceptInsecureCerts": true,
+         "browserName": "MicrosoftEdge"
+      },
+      "firstMatch": [ {
+
+      } ]
+   },
+   "desiredCapabilities": {
+      "acceptInsecureCerts": true,
+      "browserName": "MicrosoftEdge"
+   }
+}
+[1666021744.121][INFO]: Populating Preferences file: {
+   "alternate_error_pages": {
+      "enabled": false
+   },
+   "autofill": {
+      "enabled": false
+   },
+   "browser": {
+      "check_default_browser": false
+   },
+   "distribution": {
+      "import_bookmarks": false,
+      "import_history": false,
+      "import_search_engine": false,
+      "make_chrome_default_for_user": false,
+      "skip_first_run_ui": true
+   },
+   "dns_prefetching": {
+      "enabled": false
+   },
+   "profile": {
+      "content_settings": {
+         "pattern_pairs": {
+            "https://*,*": {
+               "media-stream": {
+                  "audio": "Default",
+                  "video": "Default"
+               }
+            }
+         }
+      },
+      "default_content_setting_values": {
+         "geolocation": 1
+      },
+      "default_content_settings": {
+         "geolocation": 1,
+         "mouselock": 1,
+         "notifications": 1,
+         "popups": 1,
+         "ppapi-broker": 1
+      },
+      "password_manager_enabled": false
+   },
+   "safebrowsing": {
+      "enabled": false
+   },
+   "search": {
+      "suggest_enabled": false
+   },
+   "translate": {
+      "enabled": false
+   }
+}
+[1666021744.121][INFO]: Populating Local State file: {
+   "background_mode": {
+      "enabled": false
+   },
+   "ssl": {
+      "rev_checking": {
+         "enabled": false
+      }
+   }
+}
+[1666021744.126][INFO]: Launching msedge: "C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe" --disable-background-networking --disable-client-side-phishing-detection --disable-default-apps --disable-hang-monitor --disable-popup-blocking --disable-prompt-on-repost --disable-sync --enable-automation --enable-blink-features=ShadowDOMV0 --enable-logging --ignore-certificate-errors --load-extension="C:\Users\hp\AppData\Local\Temp\scoped_dir14792_118724609\internal" --log-level=0 --no-first-run --password-store=basic --remote-debugging-port=0 --test-type=webdriver --use-mock-keychain --user-data-dir="C:\Users\hp\AppData\Local\Temp\scoped_dir14792_1769693390" data:,
+[1666021744.688][DEBUG]: DevTools HTTP Request: http://localhost:49303/json/version
+[1666021745.049][DEBUG]: DevTools HTTP Response: {
+   "Browser": "Edg/106.0.1370.47",
+   "Protocol-Version": "1.3",
+   "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36 Edg/106.0.1370.47",
+   "V8-Version": "10.6.6.8",
+   "WebKit-Version": "537.36 (@4e0bb7311a0aef386b78ea449062b0dc1fb738fe)",
+   "webSocketDebuggerUrl": "ws://localhost:49303/devtools/browser/e7ef9bb9-555c-4933-b877-5a98f3179f23"
+}
+
+[1666021745.049][INFO]: Failed to connect to MSEdge. Attempting to kill it.
+[1666021746.142][INFO]: [50bb94fa63be72dbad90540e168aef59] RESPONSE InitSession ERROR session not created: This version of MSEdgeDriver only supports MSEdge version 81
+[1666021746.142][DEBUG]: Log type 'driver' lost 0 entries on destruction
+[1666021746.142][DEBUG]: Log type 'browser' lost 0 entries on destruction
+[1666021746.162][INFO]: [d72eb678f0b38bdaaf20c86afa5013d8] COMMAND InitSession {
+   "capabilities": {
+      "alwaysMatch": {
+         "acceptInsecureCerts": true,
+         "browserName": "MicrosoftEdge"
+      },
+      "firstMatch": [ {
+
+      } ]
+   },
+   "desiredCapabilities": {
+      "acceptInsecureCerts": true,
+      "browserName": "MicrosoftEdge"
+   }
+}
+[1666021746.164][INFO]: Populating Preferences file: {
+   "alternate_error_pages": {
+      "enabled": false
+   },
+   "autofill": {
+      "enabled": false
+   },
+   "browser": {
+      "check_default_browser": false
+   },
+   "distribution": {
+      "import_bookmarks": false,
+      "import_history": false,
+      "import_search_engine": false,
+      "make_chrome_default_for_user": false,
+      "skip_first_run_ui": true
+   },
+   "dns_prefetching": {
+      "enabled": false
+   },
+   "profile": {
+      "content_settings": {
+         "pattern_pairs": {
+            "https://*,*": {
+               "media-stream": {
+                  "audio": "Default",
+                  "video": "Default"
+               }
+            }
+         }
+      },
+      "default_content_setting_values": {
+         "geolocation": 1
+      },
+      "default_content_settings": {
+         "geolocation": 1,
+         "mouselock": 1,
+         "notifications": 1,
+         "popups": 1,
+         "ppapi-broker": 1
+      },
+      "password_manager_enabled": false
+   },
+   "safebrowsing": {
+      "enabled": false
+   },
+   "search": {
+      "suggest_enabled": false
+   },
+   "translate": {
+      "enabled": false
+   }
+}
+[1666021746.165][INFO]: Populating Local State file: {
+   "background_mode": {
+      "enabled": false
+   },
+   "ssl": {
+      "rev_checking": {
+         "enabled": false
+      }
+   }
+}
+[1666021746.180][INFO]: Launching msedge: "C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe" --disable-background-networking --disable-client-side-phishing-detection --disable-default-apps --disable-hang-monitor --disable-popup-blocking --disable-prompt-on-repost --disable-sync --enable-automation --enable-blink-features=ShadowDOMV0 --enable-logging --ignore-certificate-errors --load-extension="C:\Users\hp\AppData\Local\Temp\scoped_dir14792_1390073751\internal" --log-level=0 --no-first-run --password-store=basic --remote-debugging-port=0 --test-type=webdriver --use-mock-keychain --user-data-dir="C:\Users\hp\AppData\Local\Temp\scoped_dir14792_1356685231" data:,
+[1666021746.580][DEBUG]: DevTools HTTP Request: http://localhost:49316/json/version
+[1666021746.987][DEBUG]: DevTools HTTP Response: {
+   "Browser": "Edg/106.0.1370.47",
+   "Protocol-Version": "1.3",
+   "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36 Edg/106.0.1370.47",
+   "V8-Version": "10.6.6.8",
+   "WebKit-Version": "537.36 (@4e0bb7311a0aef386b78ea449062b0dc1fb738fe)",
+   "webSocketDebuggerUrl": "ws://localhost:49316/devtools/browser/9d56fd81-2965-4888-a753-4ca544eec85a"
+}
+
+[1666021746.988][INFO]: Failed to connect to MSEdge. Attempting to kill it.
+[1666021747.232][INFO]: [d72eb678f0b38bdaaf20c86afa5013d8] RESPONSE InitSession ERROR session not created: This version of MSEdgeDriver only supports MSEdge version 81
+[1666021747.232][DEBUG]: Log type 'driver' lost 0 entries on destruction
+[1666021747.232][DEBUG]: Log type 'browser' lost 0 entries on destruction
+[1666021747.266][INFO]: [3d8036f78285f9056a3d44d9277e0000] COMMAND InitSession {
+   "capabilities": {
+      "alwaysMatch": {
+         "acceptInsecureCerts": true,
+         "browserName": "MicrosoftEdge"
+      },
+      "firstMatch": [ {
+
+      } ]
+   },
+   "desiredCapabilities": {
+      "acceptInsecureCerts": true,
+      "browserName": "MicrosoftEdge"
+   }
+}
+[1666021747.269][INFO]: Populating Preferences file: {
+   "alternate_error_pages": {
+      "enabled": false
+   },
+   "autofill": {
+      "enabled": false
+   },
+   "browser": {
+      "check_default_browser": false
+   },
+   "distribution": {
+      "import_bookmarks": false,
+      "import_history": false,
+      "import_search_engine": false,
+      "make_chrome_default_for_user": false,
+      "skip_first_run_ui": true
+   },
+   "dns_prefetching": {
+      "enabled": false
+   },
+   "profile": {
+      "content_settings": {
+         "pattern_pairs": {
+            "https://*,*": {
+               "media-stream": {
+                  "audio": "Default",
+                  "video": "Default"
+               }
+            }
+         }
+      },
+      "default_content_setting_values": {
+         "geolocation": 1
+      },
+      "default_content_settings": {
+         "geolocation": 1,
+         "mouselock": 1,
+         "notifications": 1,
+         "popups": 1,
+         "ppapi-broker": 1
+      },
+      "password_manager_enabled": false
+   },
+   "safebrowsing": {
+      "enabled": false
+   },
+   "search": {
+      "suggest_enabled": false
+   },
+   "translate": {
+      "enabled": false
+   }
+}
+[1666021747.270][INFO]: Populating Local State file: {
+   "background_mode": {
+      "enabled": false
+   },
+   "ssl": {
+      "rev_checking": {
+         "enabled": false
+      }
+   }
+}
+[1666021747.286][INFO]: Launching msedge: "C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe" --disable-background-networking --disable-client-side-phishing-detection --disable-default-apps --disable-hang-monitor --disable-popup-blocking --disable-prompt-on-repost --disable-sync --enable-automation --enable-blink-features=ShadowDOMV0 --enable-logging --ignore-certificate-errors --load-extension="C:\Users\hp\AppData\Local\Temp\scoped_dir14792_756349218\internal" --log-level=0 --no-first-run --password-store=basic --remote-debugging-port=0 --test-type=webdriver --use-mock-keychain --user-data-dir="C:\Users\hp\AppData\Local\Temp\scoped_dir14792_331510774" data:,
+[1666021747.997][DEBUG]: DevTools HTTP Request: http://localhost:49332/json/version
+[1666021748.426][DEBUG]: DevTools HTTP Response: {
+   "Browser": "Edg/106.0.1370.47",
+   "Protocol-Version": "1.3",
+   "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36 Edg/106.0.1370.47",
+   "V8-Version": "10.6.6.8",
+   "WebKit-Version": "537.36 (@4e0bb7311a0aef386b78ea449062b0dc1fb738fe)",
+   "webSocketDebuggerUrl": "ws://localhost:49332/devtools/browser/feb82264-73e0-4ac3-a15d-5e465fe0442b"
+}
+
+[1666021748.426][INFO]: Failed to connect to MSEdge. Attempting to kill it.
+[1666021748.867][INFO]: [3d8036f78285f9056a3d44d9277e0000] RESPONSE InitSession ERROR session not created: This version of MSEdgeDriver only supports MSEdge version 81
+[1666021748.868][DEBUG]: Log type 'driver' lost 0 entries on destruction
+[1666021748.868][DEBUG]: Log type 'browser' lost 0 entries on destruction
+[1666021748.877][INFO]: [c319901a93dd8810d01321c98a763c95] COMMAND InitSession {
+   "capabilities": {
+      "alwaysMatch": {
+         "acceptInsecureCerts": true,
+         "browserName": "MicrosoftEdge"
+      },
+      "firstMatch": [ {
+
+      } ]
+   },
+   "desiredCapabilities": {
+      "acceptInsecureCerts": true,
+      "browserName": "MicrosoftEdge"
+   }
+}
+[1666021748.878][INFO]: Populating Preferences file: {
+   "alternate_error_pages": {
+      "enabled": false
+   },
+   "autofill": {
+      "enabled": false
+   },
+   "browser": {
+      "check_default_browser": false
+   },
+   "distribution": {
+      "import_bookmarks": false,
+      "import_history": false,
+      "import_search_engine": false,
+      "make_chrome_default_for_user": false,
+      "skip_first_run_ui": true
+   },
+   "dns_prefetching": {
+      "enabled": false
+   },
+   "profile": {
+      "content_settings": {
+         "pattern_pairs": {
+            "https://*,*": {
+               "media-stream": {
+                  "audio": "Default",
+                  "video": "Default"
+               }
+            }
+         }
+      },
+      "default_content_setting_values": {
+         "geolocation": 1
+      },
+      "default_content_settings": {
+         "geolocation": 1,
+         "mouselock": 1,
+         "notifications": 1,
+         "popups": 1,
+         "ppapi-broker": 1
+      },
+      "password_manager_enabled": false
+   },
+   "safebrowsing": {
+      "enabled": false
+   },
+   "search": {
+      "suggest_enabled": false
+   },
+   "translate": {
+      "enabled": false
+   }
+}
+[1666021748.879][INFO]: Populating Local State file: {
+   "background_mode": {
+      "enabled": false
+   },
+   "ssl": {
+      "rev_checking": {
+         "enabled": false
+      }
+   }
+}
+[1666021748.887][INFO]: Launching msedge: "C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe" --disable-background-networking --disable-client-side-phishing-detection --disable-default-apps --disable-hang-monitor --disable-popup-blocking --disable-prompt-on-repost --disable-sync --enable-automation --enable-blink-features=ShadowDOMV0 --enable-logging --ignore-certificate-errors --load-extension="C:\Users\hp\AppData\Local\Temp\scoped_dir14792_1517787439\internal" --log-level=0 --no-first-run --password-store=basic --remote-debugging-port=0 --test-type=webdriver --use-mock-keychain --user-data-dir="C:\Users\hp\AppData\Local\Temp\scoped_dir14792_959238683" data:,
+[1666021749.262][DEBUG]: DevTools HTTP Request: http://localhost:49343/json/version
+[1666021749.735][DEBUG]: DevTools HTTP Response: {
+   "Browser": "Edg/106.0.1370.47",
+   "Protocol-Version": "1.3",
+   "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36 Edg/106.0.1370.47",
+   "V8-Version": "10.6.6.8",
+   "WebKit-Version": "537.36 (@4e0bb7311a0aef386b78ea449062b0dc1fb738fe)",
+   "webSocketDebuggerUrl": "ws://localhost:49343/devtools/browser/0f56dcc0-7adc-41cf-b57e-6188a491274d"
+}
+
+[1666021749.735][INFO]: Failed to connect to MSEdge. Attempting to kill it.
+[1666021750.132][INFO]: [c319901a93dd8810d01321c98a763c95] RESPONSE InitSession ERROR session not created: This version of MSEdgeDriver only supports MSEdge version 81
+[1666021750.132][DEBUG]: Log type 'driver' lost 0 entries on destruction
+[1666021750.132][DEBUG]: Log type 'browser' lost 0 entries on destruction

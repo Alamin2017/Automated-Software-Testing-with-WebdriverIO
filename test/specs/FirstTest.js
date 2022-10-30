@@ -6,7 +6,8 @@ describe("Smoke Test", async()=> {
          await browser.pause(3000);
          await expect(browser).toHaveUrlContaining("facebook");
          await expect(browser).toHaveTitle("Facebook – log in or sign up");
-    });
+    })
+    
     it("Verify Login", async ()=> {
 
         await $("//input[@id='email']").setValue("alamincse12@gmail.com");
@@ -16,10 +17,9 @@ describe("Smoke Test", async()=> {
         const loginbutton=await $("/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/form[1]/div[2]/button[1]")
         loginbutton.click();
         const displayed=await loginbutton.isDisplayed();
-        
         console.log("Status of Login Button",displayed);
         await browser.pause(10000);
 
-    });
+    })
 
 });

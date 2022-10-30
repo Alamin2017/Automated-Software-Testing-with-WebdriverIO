@@ -1,0 +1,32 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1667107191679' stop='1667107217847'>
+    <name>My First test suite</name>
+    <title>My First test suite</title>
+    <test-cases>
+        <test-case start='1667107191680' status='failed' stop='1667107217843'>
+            <name>End to End Test for Product</name>
+            <title>End to End Test for Product</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-106.0.5249.121'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>expect(received).toEqual(expected) // deep equality
+                
+                Expected: "SHOPPING CART"
+                Received: {}</message>
+                <stack-trace>Error: expect(received).toEqual(expected) // deep equality
+                
+                Expected: "SHOPPING CART"
+                Received: {}
+                    at Context.&lt;anonymous> (C:\Users\hp\Desktop\WDIO\WebdriverIO-PageObjectModel\test\specs\Example.js:19:44)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

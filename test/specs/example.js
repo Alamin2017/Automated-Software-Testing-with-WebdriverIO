@@ -1,9 +1,24 @@
+const page=require('../../pages/ExamplePage');
 describe("My First test suite",()=>{
-    it("My first wdio test",async()=>{
-        let myurl="http://example.com/"
-        await browser.url(myurl)
+    it("End to End Test for Product",async()=>{
+        
+        await browser.url("http://teststore.automationtesting.co.uk/")
         await browser.maximizeWindow()
+        await browser.pause(2000)
+        await page.product_one.click()
+        await browser.pause(2000)
+        await page.product_size.selectByVisibleText("XL")
+        await browser.pause(2000)
+        await page.quantity_increase.click()
+        await browser.pause(2000)
+        await page.add_to_cart_button.click()
         await browser.pause(5000)
-        await expect(browser).toHaveTitle("Example Domain")
+        await page.proceed_to_checkout_button.click()
+        await browser.pause(5000)
+        let actual_text=await page.Title.getText()
+        await expect(actual_text).toEqual("SHOPPING CART")
+        await browser.pause(5000)
+
     })
+
 })

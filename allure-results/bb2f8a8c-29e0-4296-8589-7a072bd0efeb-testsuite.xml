@@ -1,0 +1,31 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1667107131850' stop='1667107157914'>
+    <name>My First test suite</name>
+    <title>My First test suite</title>
+    <test-cases>
+        <test-case start='1667107131850' status='broken' stop='1667107157911'>
+            <name>End to End Test for Product</name>
+            <title>End to End Test for Product</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-106.0.5249.121'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>browser.call is not a function</message>
+                <stack-trace>TypeError: browser.call is not a function
+                    at Object.toHaveTitleFn (C:\Users\hp\Desktop\WDIO\WebdriverIO-PageObjectModel\node_modules\expect-webdriverio\lib\matchers\browser\toHaveTitle.js:9:20)
+                    at Object.runJestExpect (C:\Users\hp\Desktop\WDIO\WebdriverIO-PageObjectModel\node_modules\expect-webdriverio\lib\util\expectAdapter.js:10:15)
+                    at Object.toHaveTitle (C:\Users\hp\Desktop\WDIO\WebdriverIO-PageObjectModel\node_modules\expect-webdriverio\lib\matchers\browser\toHaveTitle.js:24:38)
+                    at __EXTERNAL_MATCHER_TRAP__ (C:\Users\hp\Desktop\WDIO\WebdriverIO-PageObjectModel\node_modules\expect\build\index.js:346:30)
+                    at Object.throwingMatcher [as toHaveTitle] (C:\Users\hp\Desktop\WDIO\WebdriverIO-PageObjectModel\node_modules\expect\build\index.js:347:15)
+                    at Context.&lt;anonymous> (C:\Users\hp\Desktop\WDIO\WebdriverIO-PageObjectModel\test\specs\Example.js:19:44)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
