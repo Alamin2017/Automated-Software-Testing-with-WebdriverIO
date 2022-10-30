@@ -15,8 +15,7 @@ describe("My First test suite",()=>{
         await browser.pause(5000)
         await page.proceed_to_checkout_button.click()
         await browser.pause(5000)
-        let actual_text=await page.Title.getText()
-        await expect(actual_text).toEqual("SHOPPING CART")
+        expect(await page.Title.getText()).toEqual("SHOPPING CART")
         await browser.pause(5000)
 
     })
