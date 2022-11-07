@@ -38,14 +38,6 @@ describe("UK product website:->",()=>{
         await page.continue_button1.click()
         await browser.pause(2000)
 
-
-
-
-
-
-
-
-
     })
 
 })
